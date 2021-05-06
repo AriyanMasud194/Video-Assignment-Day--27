@@ -446,10 +446,13 @@ body{
 .blog-title p{
 	color: #788495;
 }
+/* Card-section */
 
 .cards {
 	box-sizing: border-box;
-	padding: 10px;
+	padding: ;
+	border: 1px solid #ddd;
+	border-radius: 10px;
 }
 .cards span {
 	color: #635cdb;
@@ -459,11 +462,18 @@ body{
 .cardimg{
 	position: relative;
 }
-.cardimg img{
+.cardimg img {
 	max-width: 100%;
+	border-radius: 10px 10px 0 0;
 }
 .cards h4 {
 	margin-bottom: 13px;
+	padding: 0 13px;
+	font-size: 21px;
+}
+.cards p {
+	padding: 0 13px;
+	margin-top: 14px;
 }
 .prg {
 	line-height: 27px;
@@ -481,6 +491,7 @@ body{
 	visibility: hidden;
 	opacity: 0;
 	transition: .5s;
+	border-radius: 10px 10px 0 0;
 }
 
 .inner-div span {
@@ -494,7 +505,6 @@ body{
 	visibility: visible;
 	opacity: 1;
 }
-
 /* counter-section */
 .counter-section {
 	background-image: url(./img/pattern-3.png);
